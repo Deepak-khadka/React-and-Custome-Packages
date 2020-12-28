@@ -52,6 +52,7 @@ class CustomeCommand extends Command
              * if Module is Selected then
              */
             case('module'):
+
                 if (!file_exists('Neputer/' . ucfirst($switch2) . '/Controller')) {
                     mkdir(base_path('Neputer/' . ucfirst($switch2) . ''));
                     mkdir(base_path('Neputer/' . ucfirst($switch2) . '/Controller'));
@@ -82,13 +83,19 @@ class CustomeCommand extends Command
                 break;
 
             case('model'):
+
                 if (file_exists('Neputer/' . ucfirst($switch2) . '/Model/' . ucfirst($switch2) . '.php')) {
+
                     $this->error(ucfirst($switch2) . ' Module Already Created !!!');
-                } else {
+
+                }
+                else {
+
                     $model = file_get_contents(base_path('Neputer/Foundation/Mixing/model.create.stub'));
                     $model = str_replace("{{ Model }}", ucfirst($switch2), $model);
                     File::put(base_path('Neputer/' . ucfirst($switch2) . '/Model/' . ucfirst($switch2) . '.php'), $model);
                     $this->info(ucfirst($switch2) . ' Model created .');
+
                 }
                 break;
         }

@@ -13,5 +13,5 @@ require('./bootstrap');
  */
 
 require('./components/Example');
-require('./components/Name');
 require('./components/Date');
+

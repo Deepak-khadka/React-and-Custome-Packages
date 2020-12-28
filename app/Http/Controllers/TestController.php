@@ -9,6 +9,7 @@ use Illuminate\Http\JsonResponse;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
+use Neputer\Resource\TestResources;
 use Neputer\Services\CheckServices;
 
 class TestController extends BaseController
@@ -36,8 +37,9 @@ class TestController extends BaseController
      */
     public function index()
     {
-       $test = $this->testService->getAllTest();
-       return view('Test.index',compact('test'));
+
+        return $this->responseOk(TestResources::collection($this->testService->getAllTest()));
+
     }
 
     /**

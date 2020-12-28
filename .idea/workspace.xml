@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7655b2bd-4acc-4e1a-ba49-40948a436e4d" name="Default Changelist" comment="" />
+    <list default="true" id="7655b2bd-4acc-4e1a-ba49-40948a436e4d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Neputer/Mixins/Responsable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Neputer/Resource/Resource.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Neputer/Resource/TestResources.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neputer/Command/CustomeCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/Neputer/Command/CustomeCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TestController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TestController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/Date.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Date.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/Example.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Example.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/Name.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/react.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/react.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +27,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
@@ -130,6 +147,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1lyRrCoHtV0qyQqQaAa6K76Cd4H" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -147,6 +165,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -160,7 +179,7 @@
       <recent name="$PROJECT_DIR$/neputer/Services" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="npm.hot">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
@@ -170,6 +189,16 @@
       <command value="run" />
       <scripts>
         <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="hot" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="hot" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -187,6 +216,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.hot" />
         <item itemvalue="npm.dev" />
         <item itemvalue="npm.watch" />
       </list>
@@ -211,7 +241,9 @@
       <workItem from="1608827147007" duration="13775000" />
       <workItem from="1608863234326" duration="89000" />
       <workItem from="1608869645874" duration="182000" />
-      <workItem from="1608919585689" duration="4547000" />
+      <workItem from="1608919585689" duration="4896000" />
+      <workItem from="1608955027140" duration="989000" />
+      <workItem from="1609066690426" duration="6608000" />
     </task>
     <servers />
   </component>
